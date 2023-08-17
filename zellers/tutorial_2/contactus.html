@@ -1,0 +1,98 @@
+<html>
+    <head>
+        <title>Contact Support</title>
+        <style>
+            .para{
+                text-decoration: underline;
+                color: black;
+            }
+            .para:hover{
+                text-decoration: underline;
+                color: red;
+            }
+            .payment:hover{
+                text-decoration: underline;
+            }
+        </style>
+    </head>
+    <body>
+        <div style="width: 100%;">
+            <div style="width: 50%; height: 100%; float: left; background:white"> 
+                <h1>Contact Us</h1>
+                <p>
+                    Have a question? We're here to answer it.
+                    <br>Give us all the details in the form below.
+                </p>
+                <table>
+                    <form>
+                        <tr>
+                            <td>
+                                <p style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;font-size: medium;font-weight: bolder;">Email Address</p>
+                                <input type="text" id = "emailaddress" />
+                               </td>
+                        </tr>
+                        <br>
+                        <tr>
+                            <td>
+                                <p style="font-size: medium; font-weight: bold; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                                    What’s the main purpose of your visit today? <span style="color: red;">*</span>
+                                </p>
+                    
+                                <select id="choose option">
+                                    <option value="Make a Purchase">Make a Purchase</option>
+                                    <option value="Check my account balance?">Check my account balance?</option>
+                                    <option value="Find Product info">Find Product Info</option>
+                                    <option value="Other">Other</option>
+                                  </select>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td>                
+                                <p style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;font-size: medium;font-weight: bolder;">Please share your feedback</p>
+                                <textarea id="feedback" name="w3review" rows="4" cols="50">
+                                </textarea>
+                                <br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>                
+                                <button style="color: white; background-color: black ; width: 100px; height: 25px; border-radius: 5px;">Submit</button>
+                                <button style="color:grey ; background-color: white ; width: 100px; height: 25px; border-radius: 5px;">Cancel</button>
+                            </td>
+            
+                        </tr>
+                    </form>
+                </table>
+            
+            </div>
+            <div style="margin-left: 50%; height: 100%; background: white"> 
+                <h1>Related Articles</h1>
+            <div>
+                <a href = "return.html"<p class="para">
+                   What’s your return policy?
+                </p></a>
+                <hr>
+                <a href = "return.html"><p class="para">
+                    How do I check status of my orders
+                </p></a>
+                <hr>
+                <p><b>Need Answers Fast?</b></p>
+                <p>Our customer service team is available at 1-888-226-2225 from 7am-2am ET, seven days a week</p>
+                <div style="width: 100%;">
+                    <p><span><img src = "location_icon.png"/></span>&nbsp; For your closest store or in-store purchase questions:
+                        <u>Find your Store</u></p>
+                    <br>
+                    <p><span><img src ="payment_icon.png"/></span>&nbsp; 
+                        For information about<br>
+                        &nbsp;your Hudson's Bay<br>
+                        &nbsp;Mastercard® powered by Neo, call<br>
+                        <p class="payment">1-855-587-0226.</p>
+                    </p>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </body>
+</html>
